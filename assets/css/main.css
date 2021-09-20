@@ -318,7 +318,6 @@ input, select, textarea {
 		display: flex;
 		flex-wrap: wrap;
 		box-sizing: border-box;
-		align-items: stretch;
 	}
 
 		.row > * {
@@ -3327,3 +3326,17 @@ input, select, textarea {
 			}
 
 		}
+
+/* Custom */
+
+.clearfix {
+	clear: both;
+}
+
+.mb-2 {
+	margin-bottom: 2rem;
+}
+
+.maxwidth {
+	max-width: 100%;
+}
